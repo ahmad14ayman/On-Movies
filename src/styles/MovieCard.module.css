@@ -1,0 +1,81 @@
+.movieCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.movieCard:hover {
+    transform: scale(1.05);
+}
+
+.movieInfo {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #19283f;
+    color: #fff;
+}
+
+.navBar>a {
+    color: #ffc400;
+    background-color: #fe3151;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.searchInput {
+    border: none;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchInput:focus {
+    outline: none;
+
+}
+
+.serachButton {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.movieDetails {
+    width: 100%;
+    text-align: center;
+}
+
+.addToWatchList {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #ffc400;
+    background-color: #fe3151;
+    border-radius: 10px;
+    border: none;
+}
+
+.detailsImage{
+    border-radius: 20px;
+}
